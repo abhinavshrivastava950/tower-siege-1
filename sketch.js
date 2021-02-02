@@ -18,6 +18,7 @@ function setup(){
 
     stand1 = new Ground(windowWidth - 300, windowHeight - 350, 300, 20);
     stand2 = new Ground(windowWidth - 700, windowHeight - 250, 300, 20);
+    ground1 = new Ground(windowWidth/2, windowHeight - 10, windowWidth, 20);
 
     //level one
     block1 = new Block(windowWidth - 230,windowHeight - 360,35,60);  
@@ -69,6 +70,7 @@ function draw() {
 
     stand1.display();
     stand2.display();
+    ground1.display();
 
     strokeWeight(2);
     stroke(15);
